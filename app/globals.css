@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@import "tailwindcss";
+
+:root {
+  --blue: #345667;
+  --green: #7CA18B;
+  --soft-green: #BBCBC6;
+  --dark-gray: #2F2F2F;
+  --light-gray: #E6E6E6;
+  --white: #FEFEFE;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Noto Serif', serif;
+  background-color: var(--white);
+  color: var(--dark-gray);
+  -webkit-font-smoothing: antialiased;
+}
