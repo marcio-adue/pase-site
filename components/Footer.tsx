@@ -1,6 +1,5 @@
 "use client";
 
-import PaseLogo from "./PaseLogo";
 
 const footerLinks = {
   Servicios: [
@@ -24,11 +23,11 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-12 mb-12">
           {/* Brand */}
           <div className="md:col-span-2">
-            <PaseLogo
-              textColor="#FEFEFE"
-              brainLeftColor="#7CA18B"
-              brainRightColor="#BBCBC6"
-              subtitleColor="#7CA18B"
+            <img
+              src="/logo.png"
+              alt="PASE"
+              className="h-12 w-auto"
+              style={{ filter: "brightness(0) invert(1)" }}
             />
             <p
               className="mt-4 text-sm leading-relaxed max-w-xs"

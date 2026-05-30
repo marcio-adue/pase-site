@@ -19,7 +19,7 @@ export default function Home() {
       <Problems />
       <WhatWeDo />
       <Modules />
-      <HowWeWork />
+      {/* <HowWeWork /> */}
       <WhyChoose />
       <WhatCompanyGets />
       <Contact />

@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import PaseLogo from "./PaseLogo";
 
 const navLinks = [
   { label: "Qué hacemos", href: "#que-hacemos" },
@@ -33,7 +32,7 @@ export default function Navbar() {
     >
       <div className="max-w-6xl mx-auto px-6 flex items-center justify-between h-20">
         <a href="#inicio">
-          <PaseLogo />
+          <img src="/logo.png" alt="PASE" className="h-20 w-auto" />
         </a>
 
         {/* Desktop nav */}

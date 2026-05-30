@@ -2,42 +2,6 @@
 
 import FadeIn from "./FadeIn";
 
-const benefits = [
-  {
-    icon: (
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round">
-        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
-        <circle cx="12" cy="12" r="3" />
-      </svg>
-    ),
-    text: "Claridad sobre su situación organizacional",
-  },
-  {
-    icon: (
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round">
-        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-      </svg>
-    ),
-    text: "Prevención de problemas mayores",
-  },
-  {
-    icon: (
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round">
-        <path d="M9 19v-6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2zm0 0V9a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v10m-6 0a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2m0 0V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2z" />
-      </svg>
-    ),
-    text: "Herramientas para la toma de decisiones informadas",
-  },
-  {
-    icon: (
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round">
-        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
-      </svg>
-    ),
-    text: "Mejora del funcionamiento y del clima laboral",
-  },
-];
-
 export default function WhatCompanyGets() {
   return (
     <section className="py-24" style={{ backgroundColor: "#F5F7F6" }}>
@@ -63,29 +27,6 @@ export default function WhatCompanyGets() {
                 retorno de la inversión en capital humano. Resultados tangibles alineados
                 a los objetivos organizacionales.
               </p>
-            </FadeIn>
-
-            <FadeIn direction="left" delay={0.1}>
-              <ul className="flex flex-col gap-4 mb-10">
-                {benefits.map((b, i) => (
-                  <FadeIn key={b.text} delay={i * 0.08} direction="left">
-                    <li
-                      className="flex items-center gap-4 p-4 rounded-xl border"
-                      style={{ backgroundColor: "#FEFEFE", borderColor: "#E6E6E6" }}
-                    >
-                      <span
-                        className="w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0"
-                        style={{ backgroundColor: "#BBCBC6", color: "#345667" }}
-                      >
-                        {b.icon}
-                      </span>
-                      <span className="text-sm font-medium" style={{ color: "#2F2F2F" }}>
-                        {b.text}
-                      </span>
-                    </li>
-                  </FadeIn>
-                ))}
-              </ul>
             </FadeIn>
 
             <FadeIn delay={0.2}>

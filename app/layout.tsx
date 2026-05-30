@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "PASE — Salud Mental Empresarial",
   description:
     "Programa de Apoyo en Salud Mental Empresarial. Unimos la mirada clínica con la organizacional para ayudar a las empresas a prevenir el burnout, ausentismo y rotación.",
+  icons: {
+    icon: "/favico.png",
+  },
 };
 
 export default function RootLayout({

@@ -10,7 +10,7 @@ const pillars = [
       </svg>
     ),
     title: "Prevención",
-    desc: "Detectamos factores de riesgo y analizamos la salud mental de toda la empresa antes de que escalen.",
+    desc: "Detectamos factores de riesgo analizando la salud mental de toda la empresa.​",
   },
   {
     icon: (
@@ -21,7 +21,7 @@ const pillars = [
       </svg>
     ),
     title: "Enfoque estratégico",
-    desc: "Salud mental como inversión en sostenibilidad, no como gasto. Resultados medibles para la empresa.",
+    desc: "Salud mental como inversión en sostenibilidad, no como gasto. Resultados visibles para la empresa.​",
   },
   {
     icon: (
@@ -63,9 +63,8 @@ export default function WhatWeDo() {
                 Servicio profesional de salud mental organizacional
               </h2>
               <p className="text-base leading-relaxed mb-8" style={{ color: "#2F2F2F" }}>
-                Ofrecemos servicios de salud mental organizacional con enfoque preventivo,
-                orientados a identificar y abordar factores que generan problemas en el
-                desempeño y bienestar de las personas.
+                Con enfoque preventivo, orientados a identificar y abordar factores que generan problemas en el
+desempeño y bienestar de las personas.​
               </p>
             </FadeIn>
 

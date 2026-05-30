@@ -51,12 +51,6 @@ export default function WhyChoose() {
       <div className="max-w-6xl mx-auto px-6">
         <FadeIn>
           <div className="text-center mb-16">
-            <p
-              className="text-xs font-bold uppercase tracking-widest mb-3"
-              style={{ color: "#7CA18B" }}
-            >
-              Diferencial
-            </p>
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white leading-tight">
               ¿Por qué elegir P.A.S.E?
             </h2>

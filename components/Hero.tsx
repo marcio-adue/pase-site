@@ -21,16 +21,6 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto px-6 w-full grid md:grid-cols-2 gap-12 items-center py-20">
         {/* Left: Text */}
         <div>
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.1 }}
-            className="text-sm font-semibold uppercase tracking-widest mb-4"
-            style={{ color: "#7CA18B" }}
-          >
-            Programa de Apoyo en Salud Mental Empresarial
-          </motion.p>
-
           <motion.h1
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
@@ -38,8 +28,9 @@ export default function Hero() {
             className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6"
             style={{ color: "#345667" }}
           >
-            Salud mental para empresas que quieren{" "}
-            <span style={{ color: "#7CA18B" }}>trabajar mejor</span>
+            Programa de Apoyo a
+            la Salud Mental
+            Empresarial
           </motion.h1>
 
           <motion.p
@@ -49,8 +40,8 @@ export default function Hero() {
             className="text-lg leading-relaxed mb-8 max-w-md"
             style={{ color: "#2F2F2F" }}
           >
-            Unimos la mirada clínica con la organizacional para detectar riesgos
-            psicosociales, prevenir el burnout y fortalecer equipos de trabajo.
+            Unimos la mirada clínica con la organizacional para detectar riesgos psicosociales,
+prevenir el burnout y fortalecer equipos de trabajo.
           </motion.p>
 
           <motion.div
@@ -167,7 +158,7 @@ export default function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.2 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
+        className="absolute bottom-2 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 mt-4"
       >
         <p className="text-xs tracking-widest uppercase" style={{ color: "#7CA18B" }}>
           Descubrir

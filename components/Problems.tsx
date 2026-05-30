@@ -81,9 +81,12 @@ export default function Problems() {
           </div>
         </FadeIn>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div
+          className="flex overflow-x-auto snap-x snap-mandatory gap-6 -mx-6 px-6 pb-4 sm:grid sm:grid-cols-2 sm:overflow-visible sm:mx-0 sm:px-0 sm:pb-0 lg:grid-cols-4"
+          style={{ scrollbarWidth: "none" }}
+        >
           {problems.map((p, i) => (
-            <FadeIn key={p.title} delay={i * 0.1} direction="up">
+            <FadeIn key={p.title} delay={i * 0.1} direction="up" className="snap-start w-[75vw] flex-shrink-0 sm:w-auto">
               <div
                 className="rounded-2xl p-6 h-full flex flex-col gap-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg border"
                 style={{

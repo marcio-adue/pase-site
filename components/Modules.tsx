@@ -13,9 +13,9 @@ const modules = [
     color: "#345667",
     image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=600&q=80",
     description:
-      "Punto de partida de todo nuestro trabajo. A través de un análisis estructurado relevamos los valores y propósitos de la organización, el estado actual de salud mental general, identificando riesgos psicosociales, tensiones internas y oportunidades de mejora.",
+      "Punto de partida de todo nuestro trabajo. A través de un análisis revelamos los valores y propósitos de la organización, el estado actual de salud mental general, identificando riesgos y oportunidades de mejora.",
     outcomes: [
-      "Mapa claro de riesgos y decisiones",
+      "Definición clara de valores institucionales",
       "Identificación de riesgos psicosociales",
       "Análisis de tensiones internas",
       "Base para intervenciones futuras",
@@ -29,7 +29,7 @@ const modules = [
     color: "#7CA18B",
     image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&q=80",
     description:
-      "Diseñamos e implementamos acciones específicas y focalizadas, alineadas con los objetivos de la empresa. Incluye trabajo directo con líderes, dinámicas grupales y talleres, y herramientas preventivas priorizando el alcance de un impacto real.",
+      "Diseñamos e implementamos acciones específicas, alineadas con los objetivos de la empresa. Incluye trabajo directo con líderes, dinámicas grupales y talleres, y herramientas preventivas priorizando el alcance de un impacto real.",
     outcomes: [
       "Trabajo con líderes y directivos",
       "Equipos y talleres grupales",
@@ -45,7 +45,7 @@ const modules = [
     color: "#345667",
     image: "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=600&q=80",
     description:
-      "Armamos un proyecto con objetivos a largo plazo: monitoreo de la evolución, prevención de recaídas y planificación del buen funcionamiento en el tiempo. Un soporte estratégico permanente en salud mental organizacional.",
+      "Armamos un proyecto con objetivos a largo plazo: prevención de recaídas y planificación del buen funcionamiento. Un soporte estratégico permanente en salud mental organizacional. Contás con nosotros.",
     outcomes: [
       "Monitoreo de evolución continua",
       "Prevención de recaídas",
@@ -74,14 +74,13 @@ export default function Modules() {
               className="text-3xl md:text-4xl font-bold mb-4"
               style={{ color: "#345667" }}
             >
-              Nuestro programa
+              Tu empresa decide cuánto invertir
             </h2>
             <p
               className="text-base max-w-xl mx-auto leading-relaxed"
               style={{ color: "#2F2F2F" }}
             >
-              Tu empresa decide cuánto invertir. Tres módulos diseñados para cuidar la
-              salud mental en el trabajo — escalonados y a medida.
+              Tres módulos diseñados para cuidar la salud mental en el trabajo — escalonados y a medida.
             </p>
           </div>
         </FadeIn>
@@ -152,7 +151,7 @@ export default function Modules() {
                 >
                   {mod.title}
                 </h3>
-                <p className="text-sm font-semibold italic mb-4" style={{ color: "#7CA18B" }}>
+                <p className="text-md font-semibold italic mb-4" style={{ color: "#7CA18B" }}>
                   {mod.subtitle}
                 </p>
                 <p className="text-base leading-relaxed" style={{ color: "#2F2F2F" }}>
@@ -217,8 +216,7 @@ export default function Modules() {
               <span className="font-bold" style={{ color: "#BBCBC6" }}>
                 claridad, prevención y toma de decisiones informadas.
               </span>{" "}
-              No ofrecemos soluciones cerradas ni paquetes rígidos, sino un recorrido
-              profesional, escalonado y a medida.
+              No ofrecemos soluciones cerradas ni paquetes rígidos
             </p>
           </div>
         </FadeIn>

@@ -79,7 +79,7 @@ export default function HowWeWork() {
                 className="text-3xl md:text-4xl font-bold mb-4 leading-tight"
                 style={{ color: "#345667" }}
               >
-                Modelo modular PA.SE
+                Modelo modular PASE
               </h2>
               <p className="text-base leading-relaxed mb-10" style={{ color: "#2F2F2F" }}>
                 Queremos ser tu aliado para construir una cultura laboral saludable y
