@@ -133,22 +133,7 @@ prevenir el burnout y fortalecer equipos de trabajo.
             className="absolute -top-4 -right-4 w-20 h-20 rounded-2xl flex items-center justify-center shadow-lg"
             style={{ backgroundColor: "#345667" }}
           >
-            <svg width="36" height="36" viewBox="0 0 100 80" fill="none">
-              <path
-                d="M48 40 C48 40 46 10 28 10 C14 10 4 22 4 34 C4 42 8 48 14 52 C10 54 8 58 8 62 C8 70 16 76 26 76 C34 76 40 72 44 66 C46 62 48 56 48 40Z"
-                stroke="#BBCBC6"
-                strokeWidth="4"
-                fill="none"
-                strokeLinecap="round"
-              />
-              <path
-                d="M52 40 C52 40 54 10 72 10 C86 10 96 22 96 34 C96 42 92 48 86 52 C90 54 92 58 92 62 C92 70 84 76 74 76 C66 76 60 72 56 66 C54 62 52 56 52 40Z"
-                stroke="white"
-                strokeWidth="4"
-                fill="none"
-                strokeLinecap="round"
-              />
-            </svg>
+            <img src="/isologo-bordes-blancos.png" alt="PASE" className="w-9 h-auto" />
           </motion.div>
         </motion.div>
       </div>
